@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#EFEFF4</color>
+    <color name="title_font">#ffffff</color>
+    <color name="button_background">#00489B</color>
+    <color name="exit_button_background">#dc5454</color>
+    <color name="button_sel_background">#002050</color>
+    <color name="button_font">#ffffff</color>
+    <color name="warning_background">#ff8c31</color>
+    <color name="warning_font">#ffffff</color>
+    <color name="tab_background">#000000</color>
+    <color name="white">#ffffff</color>
+
+</resources>

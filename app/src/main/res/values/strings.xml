@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">干部任免</string>
+
+    <string name="title_activity_registered">RegisteredActivity</string>
+    <string name="title_activity_main_tab">MainTabActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_select_dept">SelectDeptActivity</string>
+
+    <string name = "spin_rank">职级</string >
+    <string-array name = "rank">
+        <item> 全部 </item>
+        <item> 科员级 </item>
+        <item> 副科级 </item>
+        <item> 正科级 </item>
+        <item> 副处级 </item>
+        <item> 正处级 </item>
+        <item> 副厅级 </item>
+        <item> 正厅级 </item>
+    </string-array>
+    <string name = "spin_police_rank">警衔</string >
+    <string-array name = "police_rank">
+        <item> 全部 </item>
+        <item> 副总警监 </item>
+        <item> 一级警监 </item>
+        <item> 二级警监 </item>
+        <item> 三级警监 </item>
+        <item> 一级警督 </item>
+        <item> 二级警督 </item>
+        <item> 三级警督 </item>
+        <item> 专业技术一级警监 </item>
+        <item> 专业技术二级警监 </item>
+        <item> 专业技术三级警监 </item>
+        <item> 专业技术一级警督 </item>
+        <item> 专业技术二级警督 </item>
+        <item> 专业技术三级警督 </item>
+    </string-array>
+    <string name = "spin_category">职务类别</string >
+    <string-array name = "category">
+        <item> 全部 </item>
+        <item> 领导职务 </item>
+        <item> 非领导职务 </item>
+    </string-array>
+
+    <string name="title_section1">人员信息</string>
+    <string name="title_section2">统计报表</string>
+    <string name="title_activity_import">ImportActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_details">DetailsActivity</string>
+
+    <string name="detail_name">姓名</string>
+    <string name="title_activity_mzchart">MZChartActivity</string>
+    <string name="title_activity_zjchart">ZJChartActivity</string>
+    <string name="title_activity_xlchart">XLChartActivity</string>
+    <string name="title_activity_nlchart">NLChartActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_chart_info">ChartInfoActivity</string>
+    <string name="title_activity_change_time">ChangeTimeActivity</string>
+    <string name="title_activity_jxchart">JXChartActivity</string>
+    <string name="title_activity_zwlbchart">ZWLBChartActivity</string>
+    <string name="title_activity_xbchart">XBChartActivity</string>
+    <string name="title_activity_rzsjchart">RZSJChartActivity</string>
+</resources>

@@ -1,0 +1,287 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.itianyi.fragment.FindFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:id="@+id/relativeLayout"
+            android:background="@drawable/topbg"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="统计报表"
+                android:textColor="@color/title_font"
+                android:id="@+id/textView"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="320dp">
+
+                    <LinearLayout
+                        android:id="@+id/ll_mz"
+                        android:clickable="true"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:descendantFocusability="blocksDescendants"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_margin="16dp"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="民族"
+                            android:layout_margin="8dp"
+                            android:id="@+id/textView11" />
+
+                        <com.github.mikephil.charting.charts.HorizontalBarChart
+                            android:id="@+id/chart_mz"
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:layout_margin="8dp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:background="@color/white"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_margin="16dp"
+                        android:layout_height="match_parent"
+                        android:descendantFocusability="blocksDescendants"
+                        android:clickable="true"
+                        android:id="@+id/ll_zj">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="职级"
+                            android:layout_margin="8dp"
+                            android:id="@+id/textView34" />
+
+                        <com.github.mikephil.charting.charts.BarChart
+                            android:id="@+id/chart_zj"
+                            android:layout_height="match_parent"
+                            android:layout_margin="8dp"
+                            android:layout_width="match_parent" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="320dp">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:background="@color/white"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_margin="16dp"
+                        android:layout_height="match_parent"
+                        android:descendantFocusability="blocksDescendants"
+                        android:clickable="true"
+                        android:id="@+id/ll_xl">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="学历"
+                            android:layout_margin="8dp"
+                            android:descendantFocusability="blocksDescendants"
+                            android:clickable="true"
+                            android:id="@+id/textView35" />
+
+                        <com.github.mikephil.charting.charts.HorizontalBarChart
+                            android:id="@+id/chart_xl"
+                            android:layout_height="match_parent"
+                            android:layout_margin="8dp"
+                            android:layout_width="match_parent" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:background="@color/white"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_margin="16dp"
+                        android:layout_height="match_parent"
+                        android:descendantFocusability="blocksDescendants"
+                        android:clickable="true"
+                        android:id="@+id/ll_nl">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="年龄段"
+                            android:layout_margin="8dp"
+                            android:id="@+id/textView36" />
+
+                        <com.github.mikephil.charting.charts.BarChart
+                            android:id="@+id/chart_nl"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="8dp"
+                            android:layout_width="match_parent" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="320dp">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:background="@color/white"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_margin="16dp"
+                        android:layout_height="match_parent"
+                        android:descendantFocusability="blocksDescendants"
+                        android:clickable="true"
+                        android:id="@+id/ll_jx">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="警衔"
+                            android:layout_margin="8dp"
+                            android:descendantFocusability="blocksDescendants"
+                            android:clickable="true"
+                            android:id="@+id/textView37" />
+
+                        <com.github.mikephil.charting.charts.BarChart
+                            android:id="@+id/chart_jx"
+                            android:layout_height="match_parent"
+                            android:layout_margin="8dp"
+                            android:layout_width="match_parent" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:background="@color/white"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_margin="16dp"
+                        android:layout_height="match_parent"
+                        android:descendantFocusability="blocksDescendants"
+                        android:clickable="true"
+                        android:id="@+id/ll_zwlb">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="职务类别"
+                            android:layout_margin="8dp"
+                            android:id="@+id/textView38" />
+
+                        <com.github.mikephil.charting.charts.PieChart
+                            android:id="@+id/chart_zwlb"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="8dp"
+                            android:layout_width="match_parent" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="320dp">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:background="@color/white"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_margin="16dp"
+                        android:layout_height="match_parent"
+                        android:descendantFocusability="blocksDescendants"
+                        android:clickable="true"
+                        android:id="@+id/ll_xb">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="性别"
+                            android:layout_margin="8dp"
+                            android:descendantFocusability="blocksDescendants"
+                            android:clickable="true"
+                            android:id="@+id/textView39" />
+
+                        <com.github.mikephil.charting.charts.PieChart
+                            android:id="@+id/chart_xb"
+                            android:layout_height="match_parent"
+                            android:layout_margin="8dp"
+                            android:layout_width="match_parent" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:background="@color/white"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_margin="16dp"
+                        android:layout_height="match_parent"
+                        android:descendantFocusability="blocksDescendants"
+                        android:clickable="true"
+                        android:id="@+id/ll_rzsj">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="任现职级时间"
+                            android:layout_margin="8dp"
+                            android:id="@+id/textView40" />
+
+                        <com.github.mikephil.charting.charts.BarChart
+                            android:id="@+id/chart_rzsj"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_margin="8dp"
+                            android:layout_width="match_parent" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</FrameLayout>

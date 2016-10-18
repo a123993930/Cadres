@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/listsel"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ll_background"
+        android:background="@drawable/listsel"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.8"
+                android:layout_height="match_parent"
+                android:text="序号"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@drawable/tv_background"
+                android:id="@+id/xh"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.3"
+                android:layout_height="match_parent"
+                android:text="姓名"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@drawable/tv_background"
+                android:id="@+id/xm"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="性别"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@drawable/tv_background"
+                android:id="@+id/xb"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="民族"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@drawable/tv_background"
+                android:id="@+id/mz"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:layout_height="match_parent"
+                android:text="籍贯"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@drawable/tv_background"
+                android:id="@+id/jg"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tv_background"
+                    android:text="出生日期"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:id="@+id/csrq" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tv_background"
+                    android:text="参加工作时间"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:id="@+id/cjgzsj" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.2"
+                android:layout_height="match_parent"
+                android:text="学历"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@drawable/tv_background"
+                android:id="@+id/xl" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.2"
+                android:layout_height="match_parent"
+                android:text="现职级"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@drawable/tv_background"
+                android:id="@+id/xzj" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tv_background"
+                    android:text="任现职级时间"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:id="@+id/rxzjsj" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:layout_height="match_parent"
+                android:text="单位"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@drawable/tv_background"
+                android:id="@+id/dw" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:layout_height="match_parent"
+                android:text="所在部门"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@drawable/tv_background"
+                android:id="@+id/szbm" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.8"
+                android:layout_height="match_parent"
+                android:text="现职务"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@drawable/tv_background"
+                android:id="@+id/xzw" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.8"
+                android:layout_height="match_parent"
+                android:text="现警衔"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@drawable/tv_background"
+                android:id="@+id/xjx" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:text=" "
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@drawable/tv_background"
+                android:id="@+id/zwlb" />
+
+    </LinearLayout>
+</RelativeLayout>

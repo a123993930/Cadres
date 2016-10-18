@@ -1,0 +1,136 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.itianyi.fragment.ManagerFragment">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:id="@+id/relativeLayout"
+            android:background="@drawable/topbg"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="系统管理"
+                android:textColor="@color/title_font"
+                android:id="@+id/textView"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_marginTop="44dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="@drawable/import_btn"
+            android:layout_height="88dp"
+            android:id="@+id/ll_import">
+
+            <ImageView
+                android:layout_margin="4dp"
+                android:layout_width="44dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView5"
+                android:src="@drawable/daorublue" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/button_background"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="数据导入"
+                android:id="@+id/textView6"
+                android:gravity="center"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_margin="4dp"
+                android:layout_width="44dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView6"
+                android:src="@drawable/arrow" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="44dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="@drawable/import_btn"
+            android:layout_height="88dp"
+            android:id="@+id/ll_changeTime">
+
+            <ImageView
+                android:layout_margin="4dp"
+                android:layout_width="44dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView7"
+                android:src="@drawable/changetime" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/button_background"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="截止到：系统时间"
+                android:id="@+id/tv_changeTime"
+                android:gravity="center"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_margin="4dp"
+                android:layout_width="44dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView8"
+                android:src="@drawable/arrow" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/secondary_text_dark"
+            android:text="目前工龄、年龄使用的时间。如需手动计算，请修改时间。计算结果在退出系统后，将重新设定。"
+            android:id="@+id/textView41" />
+
+        <LinearLayout
+            android:layout_marginTop="44dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="@drawable/exit_btn"
+            android:layout_height="88dp"
+            android:id="@+id/ll_exit">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="退出"
+                android:gravity="center"
+                android:textColor="@color/button_font"
+                android:id="@+id/textView37" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
